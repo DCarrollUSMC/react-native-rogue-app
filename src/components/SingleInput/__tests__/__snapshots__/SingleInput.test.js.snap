@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleInput renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "marginTop": 5,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      placeholder="Test Input"
+      style={
+        Array [
+          Object {
+            "borderRadius": 5,
+            "height": 50,
+            "marginHorizontal": 10,
+            "paddingLeft": 65,
+            "width": 710,
+          },
+          Object {
+            "backgroundColor": undefined,
+            "borderBottomColor": undefined,
+            "borderBottomWidth": 1,
+            "color": undefined,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+    />
+  </View>
+</View>
+`;

@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginScreen renders correctly 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/img/login/kettle-login.jpg",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": "100%",
+          "width": "100%",
+        },
+        Object {},
+      ]
+    }
+  />
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(34, 34, 34, 0.95)",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        Object {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/img/login/sps-logo.png",
+        }
+      }
+      style={
+        Object {
+          "bottom": 60,
+          "height": 60,
+          "resizeMode": "contain",
+          "width": 60,
+        }
+      }
+    />
+    <SingleInput
+      autoCapitalize="none"
+      autoCorrect={false}
+      bgColor="#333"
+      borderBottomColor="transparent"
+      iconHeight={22}
+      iconWidth={22}
+      onChangeText={[Function]}
+      placeholder="Email"
+      placeholderTextColor="#FFF"
+      returnKeyType="done"
+      source={
+        Object {
+          "testUri": "../../../src/assets/img/login/username.png",
+        }
+      }
+      txtColor="#FFF"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <SingleInput
+      autoCapitalize="none"
+      autoCorrect={false}
+      bgColor="#333"
+      borderBottomColor="transparent"
+      iconHeight={22}
+      iconWidth={22}
+      onChangeText={[Function]}
+      placeholder="Password"
+      placeholderTextColor="#FFF"
+      returnKeyType="done"
+      secureTextEntry={true}
+      source={
+        Object {
+          "testUri": "../../../src/assets/img/login/password.png",
+        }
+      }
+      txtColor="#FFF"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "margin": 10,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "width": 710,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <BVLinearGradient
+            colors={
+              Array [
+                4282553121,
+                4280849547,
+              ]
+            }
+            endPoint={
+              Object {
+                "x": 1,
+                "y": 0,
+              }
+            }
+            locations={null}
+            startPoint={
+              Object {
+                "x": 0,
+                "y": 0,
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 5,
+                "height": 50,
+                "width": 710,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "white",
+                  "fontSize": 18,
+                  "fontWeight": "800",
+                  "letterSpacing": 2,
+                  "margin": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              LOGIN
+            </Text>
+          </BVLinearGradient>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFF",
+            },
+            Object {
+              "paddingRight": 3,
+            },
+          ]
+        }
+      >
+        Forgot Password?
+      </Text>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#429321",
+            }
+          }
+        >
+          Recover here
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
